@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE41C357269056EE0067034E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41C355269056EE0067034E /* TableViewCell.swift */; };
+		EE41C358269056EE0067034E /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE41C356269056EE0067034E /* TableViewCell.xib */; };
+		EE41C35D269066460067034E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41C35C269066460067034E /* DataModel.swift */; };
 		EEFBA20826902C2500CB1FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBA20726902C2500CB1FDD /* AppDelegate.swift */; };
 		EEFBA20A26902C2500CB1FDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBA20926902C2500CB1FDD /* SceneDelegate.swift */; };
 		EEFBA20C26902C2500CB1FDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBA20B26902C2500CB1FDD /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE41C355269056EE0067034E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EE41C356269056EE0067034E /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		EE41C35C269066460067034E /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		EEFBA20426902C2500CB1FDD /* MyCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEFBA20726902C2500CB1FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEFBA20926902C2500CB1FDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +115,9 @@
 				EEFBA21526902C2D00CB1FDD /* LaunchScreen.storyboard */,
 				EEFBA21826902C2D00CB1FDD /* Info.plist */,
 				EEFBA21026902C2500CB1FDD /* MyCart.xcdatamodeld */,
+				EE41C355269056EE0067034E /* TableViewCell.swift */,
+				EE41C356269056EE0067034E /* TableViewCell.xib */,
+				EE41C35C269066460067034E /* DataModel.swift */,
 			);
 			path = MyCart;
 			sourceTree = "<group>";
@@ -235,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEFBA21726902C2D00CB1FDD /* LaunchScreen.storyboard in Resources */,
+				EE41C358269056EE0067034E /* TableViewCell.xib in Resources */,
 				EEFBA21426902C2D00CB1FDD /* Assets.xcassets in Resources */,
 				EEFBA20F26902C2500CB1FDD /* Main.storyboard in Resources */,
 			);
@@ -261,10 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE41C357269056EE0067034E /* TableViewCell.swift in Sources */,
 				EEFBA20C26902C2500CB1FDD /* ViewController.swift in Sources */,
 				EEFBA20826902C2500CB1FDD /* AppDelegate.swift in Sources */,
 				EEFBA20A26902C2500CB1FDD /* SceneDelegate.swift in Sources */,
 				EEFBA21226902C2500CB1FDD /* MyCart.xcdatamodeld in Sources */,
+				EE41C35D269066460067034E /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
